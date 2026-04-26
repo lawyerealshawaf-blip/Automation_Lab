@@ -15,8 +15,8 @@ async def lab_test():
         print("🚀 بدء التشغيل التجريبي في المختبر...")
         
         try:
-            # مثال لزيارة موقع الهيئة السعودية للمقاولين
-            await page.goto("https://ska.sa", timeout=60000)
+            # مثال لزيارة موقع (اختياري للتجربة)
+            await page.goto("https://google.com", timeout=60000)
             title = await page.title()
             
             # حفظ النتيجة في قاعدة البيانات المحلية
